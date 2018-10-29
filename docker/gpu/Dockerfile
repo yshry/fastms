@@ -22,8 +22,8 @@ RUN cd \
   && cd \
   && rm 2.4.13.6.zip
 
-RUN apt-get -y update \
-  && apt-get install libcanberra-gtk-module
+RUN apt-get update \
+  && apt-get install -y libcanberra-gtk-module
 
 ENV LD_LIBRARY_PATH /usr/local/lib
 WORKDIR /root
