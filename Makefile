@@ -19,7 +19,7 @@
 
 all: targets
 
-USE_CUDA:=1
+USE_CUDA:=0
 USE_OPENMP:=1
 USE_OPENCV:=1
 USE_MEX:=1
